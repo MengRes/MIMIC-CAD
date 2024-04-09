@@ -104,7 +104,7 @@ MIMIC-CAD v1.0 contains a file record of all disease comprehensive annotations. 
 +   `study_id`: An integer unique for an individual study (i.e. an individual radiology report with one or more.
 +   `subject_id`: An integer unique for an individual patient.
 +   `dicom_id`: An identifier for the `DICOM` file. The stem of each `JPG` image filename is equal to the `dicom_id.``
-+   ``view`: The orientation in which the chest radiograph was taken ("AP", "PA", "LATERAL", etc).
++   `view`: The orientation in which the chest radiograph was taken ("AP", "PA", "LATERAL", etc).
 +   `entity`: The comprehensive annotation of diseases we extracted from the radiologist report.
 
 The `entity` dictionary includes disease annotations, each kind of disease name is the key and the annotation is the value. 
