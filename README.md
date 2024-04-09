@@ -117,4 +117,5 @@ The `entity` dictionary includes disease annotations, each kind of disease name 
 
 The disease information extraction code can be found in the "disease_info_extract.py" file. The diseases' probability info extraction module hasn't been uploaded. The libs folder contains disease and other dictionaries, you can adjust the dictionary yourself. The dictionary may not be comprehensive enough to cover all kinds of scenarios.
 To extract the disease info from the reports, you can give the report_path to the function get_disease_json.
+
 The Jupyter Notebook records how to extract info from the .json file. It gives an example to extract disease name, severity, and other info.
